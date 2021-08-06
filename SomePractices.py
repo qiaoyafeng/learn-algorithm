@@ -1,6 +1,8 @@
 import random
 
 def get_incontine_nums(array):
+    """Get a incontine numbers array.
+    """
     result_list = [0 for i in range(len(array))]
     print(result_list)
     for num in array:
@@ -42,7 +44,18 @@ def get_incontine_nums(array):
     return result_list
             
 
-mylist = [1, 2, 3, 4, 5, 6, 7, 8]
-print('=====================')
-res = get_incontine_nums(mylist)
-print(res)
+#mylist = [1, 2, 3, 4, 5, 6, 7, 8]
+# print('=====================')
+# res = get_incontine_nums(mylist)
+# print(res)
+
+
+def print_lyrics():
+    print("I'm a lumberjack, and I'm okay.")
+    print("I sleep all night and I work all day.")
+
+def repeat_lyrics():
+    print_lyrics()
+    print_lyrics()
+
+repeat_lyrics()
